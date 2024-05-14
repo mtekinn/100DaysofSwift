@@ -36,6 +36,8 @@ class ViewController: UIViewController {
         button2.configuration?.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0)
         button3.configuration?.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0)
         
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Score", style: .plain, target: self, action: #selector(showScore))
+        
         askQuestion(action: nil)
     }
 
@@ -48,9 +50,13 @@ class ViewController: UIViewController {
         
         correctAnswer = Int.random(in: 0...2)
         title = countries[correctAnswer].uppercased()
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Score: \(score)", style: .done, target: self, action: nil)
     }
     
+    @objc func showScore() {
+        let ac = UIAlertController(title: "Your Score", message: "Your current score is \(score).", preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "OK", style: .default))
+        present(ac, animated: true)
+    }
     
     @IBAction func buttonTapped(_ sender: UIButton) {
         var title: String
