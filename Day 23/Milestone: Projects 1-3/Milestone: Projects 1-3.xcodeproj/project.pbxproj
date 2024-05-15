@@ -13,6 +13,17 @@
 		E15482BC2BF0284E003DDD52 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E15482BB2BF0284E003DDD52 /* Base */; };
 		E15482BE2BF0284E003DDD52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15482BD2BF0284E003DDD52 /* Assets.xcassets */; };
 		E15482C12BF0284E003DDD52 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E15482C02BF0284E003DDD52 /* Base */; };
+		E180C8422BF55D1D0018B23C /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E180C8372BF55D1D0018B23C /* nssl0033.jpg */; };
+		E180C8432BF55D1D0018B23C /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E180C8382BF55D1D0018B23C /* nssl0034.jpg */; };
+		E180C8442BF55D1D0018B23C /* nssl0041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E180C8392BF55D1D0018B23C /* nssl0041.jpg */; };
+		E180C8452BF55D1D0018B23C /* nssl0042.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E180C83A2BF55D1D0018B23C /* nssl0042.jpg */; };
+		E180C8462BF55D1D0018B23C /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E180C83B2BF55D1D0018B23C /* nssl0043.jpg */; };
+		E180C8472BF55D1D0018B23C /* nssl0045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E180C83C2BF55D1D0018B23C /* nssl0045.jpg */; };
+		E180C8482BF55D1D0018B23C /* nssl0046.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E180C83D2BF55D1D0018B23C /* nssl0046.jpg */; };
+		E180C8492BF55D1D0018B23C /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E180C83E2BF55D1D0018B23C /* nssl0049.jpg */; };
+		E180C84A2BF55D1D0018B23C /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E180C83F2BF55D1D0018B23C /* nssl0051.jpg */; };
+		E180C84B2BF55D1D0018B23C /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E180C8402BF55D1D0018B23C /* nssl0091.jpg */; };
+		E180C84D2BF55DB60018B23C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E180C84C2BF55DB60018B23C /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		E15482BD2BF0284E003DDD52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E15482C02BF0284E003DDD52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E15482C22BF0284E003DDD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E180C8372BF55D1D0018B23C /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
+		E180C8382BF55D1D0018B23C /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
+		E180C8392BF55D1D0018B23C /* nssl0041.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0041.jpg; sourceTree = "<group>"; };
+		E180C83A2BF55D1D0018B23C /* nssl0042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0042.jpg; sourceTree = "<group>"; };
+		E180C83B2BF55D1D0018B23C /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
+		E180C83C2BF55D1D0018B23C /* nssl0045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0045.jpg; sourceTree = "<group>"; };
+		E180C83D2BF55D1D0018B23C /* nssl0046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0046.jpg; sourceTree = "<group>"; };
+		E180C83E2BF55D1D0018B23C /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
+		E180C83F2BF55D1D0018B23C /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
+		E180C8402BF55D1D0018B23C /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
+		E180C84C2BF55DB60018B23C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +81,31 @@
 				E15482B42BF0284E003DDD52 /* AppDelegate.swift */,
 				E15482B62BF0284E003DDD52 /* SceneDelegate.swift */,
 				E15482B82BF0284E003DDD52 /* ViewController.swift */,
+				E180C84C2BF55DB60018B23C /* DetailViewController.swift */,
 				E15482BA2BF0284E003DDD52 /* Main.storyboard */,
 				E15482BD2BF0284E003DDD52 /* Assets.xcassets */,
 				E15482BF2BF0284E003DDD52 /* LaunchScreen.storyboard */,
 				E15482C22BF0284E003DDD52 /* Info.plist */,
+				E180C8412BF55D1D0018B23C /* Content */,
 			);
 			path = "Milestone: Projects 1-3";
+			sourceTree = "<group>";
+		};
+		E180C8412BF55D1D0018B23C /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				E180C8372BF55D1D0018B23C /* nssl0033.jpg */,
+				E180C8382BF55D1D0018B23C /* nssl0034.jpg */,
+				E180C8392BF55D1D0018B23C /* nssl0041.jpg */,
+				E180C83A2BF55D1D0018B23C /* nssl0042.jpg */,
+				E180C83B2BF55D1D0018B23C /* nssl0043.jpg */,
+				E180C83C2BF55D1D0018B23C /* nssl0045.jpg */,
+				E180C83D2BF55D1D0018B23C /* nssl0046.jpg */,
+				E180C83E2BF55D1D0018B23C /* nssl0049.jpg */,
+				E180C83F2BF55D1D0018B23C /* nssl0051.jpg */,
+				E180C8402BF55D1D0018B23C /* nssl0091.jpg */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +166,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E180C8432BF55D1D0018B23C /* nssl0034.jpg in Resources */,
+				E180C84A2BF55D1D0018B23C /* nssl0051.jpg in Resources */,
 				E15482BE2BF0284E003DDD52 /* Assets.xcassets in Resources */,
+				E180C8462BF55D1D0018B23C /* nssl0043.jpg in Resources */,
+				E180C8422BF55D1D0018B23C /* nssl0033.jpg in Resources */,
+				E180C8472BF55D1D0018B23C /* nssl0045.jpg in Resources */,
+				E180C8482BF55D1D0018B23C /* nssl0046.jpg in Resources */,
+				E180C8492BF55D1D0018B23C /* nssl0049.jpg in Resources */,
+				E180C8452BF55D1D0018B23C /* nssl0042.jpg in Resources */,
 				E15482C12BF0284E003DDD52 /* Base in Resources */,
+				E180C84B2BF55D1D0018B23C /* nssl0091.jpg in Resources */,
+				E180C8442BF55D1D0018B23C /* nssl0041.jpg in Resources */,
 				E15482BC2BF0284E003DDD52 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +192,7 @@
 				E15482B92BF0284E003DDD52 /* ViewController.swift in Sources */,
 				E15482B52BF0284E003DDD52 /* AppDelegate.swift in Sources */,
 				E15482B72BF0284E003DDD52 /* SceneDelegate.swift in Sources */,
+				E180C84D2BF55DB60018B23C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
