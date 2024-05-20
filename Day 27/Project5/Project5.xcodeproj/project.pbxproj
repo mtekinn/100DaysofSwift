@@ -13,6 +13,7 @@
 		E118834C2BFB694800E44495 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E118834B2BFB694800E44495 /* Base */; };
 		E118834E2BFB694900E44495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E118834D2BFB694900E44495 /* Assets.xcassets */; };
 		E11883512BFB694900E44495 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E11883502BFB694900E44495 /* Base */; };
+		E11883592BFB696600E44495 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = E11883582BFB696600E44495 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E118834D2BFB694900E44495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11883502BFB694900E44495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E11883522BFB694900E44495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11883582BFB696600E44495 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E118834D2BFB694900E44495 /* Assets.xcassets */,
 				E118834F2BFB694900E44495 /* LaunchScreen.storyboard */,
 				E11883522BFB694900E44495 /* Info.plist */,
+				E11883582BFB696600E44495 /* start.txt */,
 			);
 			path = Project5;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E118834E2BFB694900E44495 /* Assets.xcassets in Resources */,
+				E11883592BFB696600E44495 /* start.txt in Resources */,
 				E11883512BFB694900E44495 /* Base in Resources */,
 				E118834C2BFB694800E44495 /* Base in Resources */,
 			);
