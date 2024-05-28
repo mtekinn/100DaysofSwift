@@ -16,7 +16,6 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(promptForAnswer))
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "New", style: .done, target: self, action: #selector(newWord))
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "New Game", style: .done, target: self, action: #selector(startGame))
 
         if let startWordsURL = Bundle.main.url(forResource: "start", withExtension: "txt") {
@@ -30,10 +29,7 @@ class ViewController: UITableViewController {
         }
         
         startGame()
-    }
-    
-    @objc func newWord() {
-        
+        setupNextWordButton()
     }
 
     @objc func startGame() {
@@ -49,7 +45,6 @@ class ViewController: UITableViewController {
         let submitAction = UIAlertAction(title: "Submit", style: .default) { [weak self, weak ac] action in
             guard let answer = ac?.textFields?[0].text else { return }
             self?.submit(answer)
-            
         }
         ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
         
@@ -81,7 +76,6 @@ class ViewController: UITableViewController {
         }
     }
 
-    
     func isPossible(word: String) -> Bool {
         guard var tempWord = title?.lowercased() else { return false }
         
@@ -110,7 +104,6 @@ class ViewController: UITableViewController {
 
             return misspelledRange.location == NSNotFound
         }
-        
     }
     
     func showErrorMessage(errorTitle: String, errorMessage: String) {
@@ -129,4 +122,26 @@ class ViewController: UITableViewController {
         return cell
     }
 
+    func setupNextWordButton() {
+        let footerView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 60))
+        footerView.backgroundColor = .systemBackground
+
+        let nextWordButton = UIButton(type: .system)
+        nextWordButton.setTitle("Next Word", for: .normal)
+        nextWordButton.addTarget(self, action: #selector(nextWord), for: .touchUpInside)
+        nextWordButton.translatesAutoresizingMaskIntoConstraints = false
+
+        footerView.addSubview(nextWordButton)
+
+        NSLayoutConstraint.activate([
+            nextWordButton.centerXAnchor.constraint(equalTo: footerView.centerXAnchor),
+            nextWordButton.centerYAnchor.constraint(equalTo: footerView.centerYAnchor)
+        ])
+
+        tableView.tableFooterView = footerView
+    }
+
+    @objc func nextWord() {
+        title = allWords.randomElement()
+    }
 }
